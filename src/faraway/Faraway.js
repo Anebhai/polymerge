@@ -89,7 +89,7 @@ function Item({ item: { id, description, quantity, packed } }) {
 }
 function Stats() {
   return (
-    <footer>
+    <footer className="stats">
       💼you have x items on your list, and you already packed (X%) items
     </footer>
   );

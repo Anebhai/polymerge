@@ -4,6 +4,8 @@ import Home from "./Home";
 import FlashCards from "./flashcard/Flashcard";
 import Datecounter from "./steps/Steps";
 import StepsRange from "./steps/StepsRange";
+import Pizza from "./pizzas/Pizza";
+
 function App() {
   return (
     <div>
@@ -13,6 +15,7 @@ function App() {
         <Route path="/flashcard" element={<FlashCards />} />
         <Route path="/datecounter" element={<Datecounter />} />
         <Route path="/stepsrange" element={<StepsRange />} />
+        <Route path="/pizza" element={<Pizza />} />
       </Routes>
     </div>
   );

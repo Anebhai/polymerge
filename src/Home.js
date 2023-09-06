@@ -33,6 +33,11 @@ function Home() {
                 Date Ranger
               </Link>
             </li>
+            <li>
+              <Link to="/pizza" style={linkStyle}>
+                Pizza Co
+              </Link>
+            </li>
           </ul>
         </NavWrapper>
       </ContainerWrapper>
@@ -43,8 +48,9 @@ function Home() {
 const BodyWrapper = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
   background-color: #6f1d1b;
-  /* background-image: url("images/multiblend.jpg");
-  background-size: cover; */
+  background-image: url("images/multiblend.jpg");
+
+  background-size: cover;
 
   height: 100vh;
   color: #fff;
@@ -58,7 +64,6 @@ const ContainerWrapper = styled.div`
   margin: 0 auto;
 
   h1 {
-    color: #6f1d1b;
     font-size: 64px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
