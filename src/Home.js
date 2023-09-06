@@ -19,13 +19,18 @@ function Home() {
               </Link>
             </li>
             <li>
-              <Link to="/" style={linkStyle}>
-                Home
+              <Link to="/flashcard" style={linkStyle}>
+                Flashcards
               </Link>
             </li>
             <li>
-              <Link to="/faraway" style={linkStyle}>
-                Faraway
+              <Link to="/datecounter" style={linkStyle}>
+                Datecounter
+              </Link>
+            </li>
+            <li>
+              <Link to="/stepsrange" style={linkStyle}>
+                Date Ranger
               </Link>
             </li>
           </ul>
