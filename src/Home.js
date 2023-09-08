@@ -38,6 +38,16 @@ function Home() {
                 Pizza Co
               </Link>
             </li>
+            <li>
+              <Link to="/accordian" style={linkStyle}>
+                Accordion
+              </Link>
+            </li>
+            <li>
+              <Link to="/tipcalculator" style={linkStyle}>
+                Tip Calculator
+              </Link>
+            </li>
           </ul>
         </NavWrapper>
       </ContainerWrapper>
