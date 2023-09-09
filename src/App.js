@@ -7,6 +7,7 @@ import StepsRange from "./steps/StepsRange";
 import Pizza from "./pizzas/Pizza";
 import Accordion from "./accordion/Accordion";
 import Tipcalculator from "./tipCalculator/Tipcalculator";
+import EatNSplit from "./eatNsplit/EatNSplit";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/pizza" element={<Pizza />} />
         <Route path="/accordian" element={<Accordion />} />
         <Route path="/tipcalculator" element={<Tipcalculator />} />
+        <Route path="/eatnsplit" element={<EatNSplit />} />
       </Routes>
     </div>
   );

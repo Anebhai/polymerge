@@ -48,6 +48,11 @@ function Home() {
                 Tip Calculator
               </Link>
             </li>
+            <li>
+              <Link to="/eatnsplit" style={linkStyle}>
+                EatNSplit
+              </Link>
+            </li>
           </ul>
         </NavWrapper>
       </ContainerWrapper>
